@@ -118,13 +118,6 @@ Dedicated showcase with five independently controlled demos:
 
 ---
 
-## Gesture Interactions
-
-1. **Swipe-to-delete** (CartScreen) — `PanResponder` tracks horizontal drag on each cart item. Swiping past 80 px plays a slide-out + fade animation then removes the item from state.
-2. **Drag gesture** (AnimationDemoScreen) — `PanResponder` + `Animated.ValueXY` lets the user freely drag a ball inside a bounded area. The ball scales up on grab and snaps back smoothly on release.
-
----
-
 ## Technical Details
 
 - **Framework**: React Native + Expo SDK 54
